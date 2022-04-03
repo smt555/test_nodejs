@@ -1,5 +1,5 @@
 FROM node
-WORKDIR /data/cicdtesting
+WORKDIR /usr/src/app 
 COPY package*.json ./
 RUN npm install
 COPY . .
